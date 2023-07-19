@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fab22e;
+}
+
+.wrapper{
+    width: 80vmin;
+    padding: 5rem 4rem;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    border-radius: .5rem;
+    box-shadow: 20px 20px 40px rgba(97,63,0,.4);
+}
+
+.emoji{
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+}
+
+p{
+    font-size: 1.6rem;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 3.5rem;
+    margin: 3rem 0;
+}
+
+#btn{
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: .5rem;
+    font-size: 1.8rem;
+    color: #171721;
+    font-weight: 600;
+    padding: 1.2rem 2.5rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#cate{
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: .5rem;
+    font-size: 1.8rem;
+    color: #171721;
+    font-weight: 600;
+    padding: .5rem 2.5rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+
+.filter-container{
+    /* border:2px solid white; */
+    font-size: 1.6rem;
+    color: #fff;
+    max-width: 15rem;
+    margin: auto;
+    display: none;
+
+
+}
+
+.filter-container p{
+    /* border:2px solid; */
+    margin: 0;
+    text-align: end;
+    /* pad */
+}
+
+.filter-container p span{
+    border: 1px solid;
+    padding: .3rem .5rem;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    background-color: #fab22e;
+    color: #171721;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+
+.filter-container .form-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="emoji">&#128514;</span>
+        <p id="joke">
+            
+        </p>
+
+        <div class="filter-container" >
+
+            <p><span id="close">
+                
+                close x
+                </span>
+            </p>
+            <div class="form-container">
+
+                <label for="filter">nsfw</label>
+                <input type="checkbox" name="nsfw" id="filter">
+            </div>
+
+            <div class="form-container">
+
+                <label for="filter">religious</label>
+                <input type="checkbox" name="religious" id="filter">
+            </div>
+
+            <div class="form-container">
+
+                <label for="filter">political</label>
+                <input type="checkbox" name="political" id="filter">
+            </div>
+
+            <div class="form-container">
+
+                <label for="filter">racist</label>
+                <input type="checkbox" name="racist" id="filter">
+            </div>
+
+            <div class="form-container">
+
+                <label for="filter">sexist</label>
+                <input type="checkbox" name="sexist" id="filter">
+            </div>
+
+            <div class="form-container">
+
+                <label for="filter">explicit</label>
+                <input type="checkbox" name="explicit" id="filter">
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="btn" onclick="getJoke()">Get Random Joke</button>
+            <button id="cate" onclick="filter()">Filter</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
